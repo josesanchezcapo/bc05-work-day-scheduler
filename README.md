@@ -9,7 +9,7 @@ Create a simple calendar application that allows a user to save events for each 
 ```
 
 # Project Url
-
+[https://josesanchezcapo.github.io/bc05-work-day-scheduler](https://josesanchezcapo.github.io/bc05-work-day-scheduler)
 
 ## User Story
 
