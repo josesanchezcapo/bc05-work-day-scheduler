@@ -1,6 +1,6 @@
 
 // Define object time
-var timeblock = ['8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18']
+var position = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
 
 
 // Define today using moment()
@@ -14,21 +14,82 @@ $('#displayDate').append(today);
 
 var currentTime = moment().format('h:mm a');
 
-for (var i = 0; i < timeblock.length; i++) {
+for (var i = 0; i < position.length; i++) {
 
-    var currentHour = $('#' + timeblock[i]).data('value');
-    var nextHour = $('#' + timeblock[i + 1]).data('value');
+    var currentHour = $('#' + position[i]).data('value');
+    var nextHour = $('#' + position[i + 1]).data('value');
 
     if (currentTime > currentHour) {
 
-        $('#' + timeblock[i]).removeClass('col').addClass('col past');
+        $('#' + position[i]).removeClass('col').addClass('col past');
     }
     if (currentTime < currentHour) {
-        $('#' + timeblock[i]).removeClass('col').addClass('col future');
+        $('#' + position[i]).removeClass('col').addClass('col future');
     }
     if (currentTime === currentHour || currentTime < nextHour) {
-        $('#' + timeblock[i]).removeClass('col').addClass('col present');
+        $('#' + position[i]).removeClass('col').addClass('col present');
     }
+
+
 
 }
 
+// Buttons actions
+
+$('#btn1').click(function () {
+
+
+
+});
+
+$('#btn2').click(function () {
+
+
+
+});
+
+$('#btn3').click(function () {
+
+
+
+});
+$('#btn4').click(function () {
+
+
+});
+$('#btn5').click(function () {
+
+
+});
+$('#btn6').click(function () {
+
+
+
+});
+$('#btn7').click(function () {
+
+
+
+});
+$('#btn8').click(function () {
+
+
+
+});
+$('#btn9').click(function () {
+
+
+});
+$('#btn10').click(function () {
+
+
+
+});
+$('#btn11').click(function () {
+
+
+
+});
+
+
+// Display storage information
