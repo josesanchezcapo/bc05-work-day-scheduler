@@ -35,7 +35,7 @@ for (var i = 0; i < position.length; i++) {
 }
 
 
-// Buttons actions
+// Buttons action
 
 $('#btn1').click(function () {
 
@@ -44,6 +44,7 @@ $('#btn1').click(function () {
     localStorage.setItem('timeBlock1', timeBlock1);
 
 });
+
 
 $('#btn2').click(function () {
 
@@ -124,6 +125,7 @@ $('#btn11').click(function () {
     localStorage.setItem('timeBlock11', timeBlock11);
 
 });
+
 
 // Get storage information and Render information on the page
 
