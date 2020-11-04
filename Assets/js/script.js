@@ -4,9 +4,9 @@ var position = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
 
 
 // Define today using moment()
-var today = moment().format('MMMM Do YYYY, h:mm:ss a');
+var today = moment().format('MMMM Do YYYY, h:mm a');
 // console.log today's date
-console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
+console.log(moment().format('MMMM Do YYYY, h:mm a'));
 // Render today's date to the page
 $('#displayDate').append(today);
 
