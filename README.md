@@ -21,4 +21,4 @@ SO THAT I can manage my time effectively
 ```
 
 ## Mock-Up
-![a link](./Assets/img/screecap.png)
+![a link](./Assets/img/screencap.png)
